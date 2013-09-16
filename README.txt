@@ -1,8 +1,6 @@
-caserel
-
-Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images
-
-=======
+project name: caserel
+project description: Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images
+project summary:
 
 The aim of this project, caserel`, is to build an open-source software suite for computer-aided segmentation and analysis of retinal layers in optical coherence tomography images.
 
@@ -10,4 +8,7 @@ This project is at its infancy stage. Currently, the software supports segmentat
 
 For a demonstration, run script 'getRetinalLayersExample.m'.
 
-` How to pronounce CASeReL? say is like c
+
+` How to pronounce CASeReL? say is like casserole.
+
+
