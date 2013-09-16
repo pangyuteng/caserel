@@ -1,6 +1,6 @@
 %   
 %
-%   This example script demonstrate the usage of CASEREL
+%   This example script demonstrates the usage of CASEREL
 %
 %   Section 1, loads the path of the image.
 %   Section 2, automatically segments the retinal layers based on graph theory.
