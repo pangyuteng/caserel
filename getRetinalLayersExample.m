@@ -58,7 +58,7 @@ end
 
 %% Section 2, automatically segments the retinal layers based on graph theory.
 
-for i = 3:3%numel(imagePath)
+for i = 1:numel(imagePath)
     
     display(sprintf('segmenting image %d of %d',i,numel(imagePath)));
     

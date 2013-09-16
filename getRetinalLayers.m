@@ -132,7 +132,7 @@ if isPlot,
             colora = params.colorarr(k,:);
             plot(retinalLayers(layerToPlotInd).pathY,retinalLayers(layerToPlotInd).pathX-1,'--','color',colora,'linewidth',1.5);
             plotInd = round(numel(retinalLayers(layerToPlotInd).pathX)/2);            
-            %text(retinalLayers(layerToPlotInd).pathY(plotInd)+hOffset(k),retinalLayers(layerToPlotInd).pathX(plotInd)+params.txtOffset,retinalLayers(layerToPlotInd).name,'color',colora,'linewidth',2);            
+            text(retinalLayers(layerToPlotInd).pathY(plotInd)+hOffset(k),retinalLayers(layerToPlotInd).pathX(plotInd)+params.txtOffset,retinalLayers(layerToPlotInd).name,'color',colora,'linewidth',2);            
             drawnow;
         end % of if ~isempty            
 
