@@ -10,7 +10,7 @@
 %   Section 4, calculate and print out retinal thickness (in pixels)
 %
 %   $Created: 1.0 $ $Date: 2013/09/09 20:00$ $Author: Pangyu Teng $
-%
+%   $Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 
 close all;clear all;clc;
 %% Section 1, loads the path of the image.

@@ -19,7 +19,7 @@
 % $Revision: 1.0 $ $Date: 2013/01/23 21:00$ $Author: Pangyu Teng $
 % $Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 %                   Comment: simplified the script to detect only ILM and RPE
-%s
+%
 
 close all;clear all;clc;
 warning off;

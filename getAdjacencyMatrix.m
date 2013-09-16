@@ -23,7 +23,7 @@ function [adjMatrixW, adjMatrixMW, adjMAsub, adjMBsub, adjMW, adjMmW, img] = get
 %   'img'           - updated image with 1 column of 0s on the each verticle side of the image
 %
 % $Revision: 1.0 $ $Date: 2013/04/29 09:00$ $Author: Pangyu Teng $
-
+% $Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 
 % pad image with vertical column on both sides
 szImg = size(inputImg);

@@ -3,7 +3,7 @@ function [rPaths, img] = getRetinalLayersCore(layerName,img,params,rPaths)
 % this is a founction used within getRetinalLayers.m
 %
 %   $Created: 1.0 $ $Date: 2013/09/09 20:00$ $Author: Pangyu Teng $
-%
+%   $Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 if nargin < 3
     display('3 inputs required, getLayers.m');
     return;   

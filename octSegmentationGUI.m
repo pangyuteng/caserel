@@ -1,4 +1,5 @@
 function varargout = octSegmentationGUI(varargin)
+
 % OCTSEGMENTATIONGUI MATLAB code for octSegmentationGUI.fig
 %      OCTSEGMENTATIONGUI, by itself, creates a new OCTSEGMENTATIONGUI or raises the existing
 %      singleton*.
@@ -23,6 +24,7 @@ function varargout = octSegmentationGUI(varargin)
 % Edit the above text to modify the response to help octSegmentationGUI
 
 % Last Modified by GUIDE v2.5 09-Sep-2013 22:00:39
+% $Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;

@@ -1,4 +1,5 @@
 function paths = getHyperReflectiveLayers(inputImg,constants)
+%$Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 
 if nargin < 1
     display('requires at least 1 input (findHyperReflectiveZones.m)');
