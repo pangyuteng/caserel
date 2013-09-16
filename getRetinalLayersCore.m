@@ -70,9 +70,12 @@ for k = 2:szImg(2)-1
             indPathX = find(rPaths(strcmp('isos',{rPaths.name})).pathY==k);
             
             % define a region (from 'startInd' to 'endInd') below 'isos'.
-            startInd = rPaths(strcmp('isos',{rPaths.name})).pathX(indPathX(1));
-            endInd = startInd+round((rPaths(strcmp('isos',{rPaths.name})).pathXmean-rPaths(strcmp('ilm',{rPaths.name})).pathXmean));
+            startInd0 = rPaths(strcmp('isos',{rPaths.name})).pathX(indPathX(1));
+            endInd0 = startInd0+round((rPaths(strcmp('isos',{rPaths.name})).pathXmean-rPaths(strcmp('ilm',{rPaths.name})).pathXmean));
 
+            startInd = startInd0+round(params.rpe_0*(endInd0-startInd0));
+            endInd = endInd0-round(params.rpe_1*(endInd0-startInd0));                   
+            
         case {'inlopl'}     
             
             % define a region (from 'startInd' to 'endInd') between 'ilm'
@@ -212,8 +215,9 @@ if isSmoothRpe,
                lambda,pathY(rpePathInd));               
 
             %add layer info to struct
-            layerToPlotInd = numel(rPaths)+1;
-            rPaths(layerToPlotInd).name = 'rpeSmooth';
+            %layerToPlotInd = numel(rPaths)+1;
+            %rPaths(layerToPlotInd).name = 'rpeSmooth';
+            %update rpw layer info to struct
             rPaths(layerToPlotInd).pathX = round(pathXpoly);
             rPaths(layerToPlotInd).pathY = round(pathYpoly);            
             rPaths(layerToPlotInd).path = sub2ind(szImg,rPaths(layerToPlotInd).pathX,rPaths(layerToPlotInd).pathY);
