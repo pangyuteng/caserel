@@ -61,7 +61,7 @@ end
 
 %% Section 2, automatically segments the retinal layers based on graph theory.
 
-for i = 1:1%numel(imagePath)
+for i = 3:3%numel(imagePath)
     
     display(sprintf('segmenting image %d of %d',i,numel(imagePath)));
     
@@ -117,7 +117,7 @@ filename = [imagePath{1} '_octSegmentation.mat'];
 
 isReviewSegmentation = 1;
 if isReviewSegmentation,
-    [h,guiParam] = octSegmentationGUI('',filename);   
+    [h,guiParam] = octSegmentationGUI(filename);   
 
     if guiParam.proceed
         delete(guiParam.figureOCT);

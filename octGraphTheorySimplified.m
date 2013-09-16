@@ -1,22 +1,25 @@
-%% This script demonstrates how graph theory can be used to segment
+%% This script demonstrates how graph theory can be used to segment 
 % retinal layers in optical coherence tomography images. The method is based on 
-%
-% Chui SJ et al, Automatic segmentation of seven retinal layers in SDOCT
+% 
+% Chiu SJ et al, Automatic segmentation of seven retinal layers in SDOCT
 % images congruent with expert manual segmentation, Optics Express, 2010;18(18);19413-19428
 % Section 3.2
-%
 % link(pubmed): http://goo.gl/Z8zsY
-% link(pdf from Duke.edu): http://goo.gl/i3cJ0
-%
+% 
 % USAGE:
-% make sure this script is in the same folder as image 'OCT-detached-retina.jpg'
 % run the script by pressing F5.
+% 
+% I am working on a more comprehensive software package for computer-aided 
+% segmentation of retinal layers in optical coherence tomography images, 
+% which currently includes 1. automated segmentation of 6 reitnal layers and 
+% 2. GUI for examination and manual correction of the automated segmentation. 
+% It is called caserel and can be downloaded at my github page. http://goo.gl/yPqhPu
 %
 %
 % $Revision: 1.0 $ $Date: 2013/01/23 21:00$ $Author: Pangyu Teng $
-% $Revision: 1.1 $ $Date: 2013/09/14 11:00$ $Author: Pangyu Teng $
+% $Revision: 1.1 $ $Date: 2013/09/15 21:00$ $Author: Pangyu Teng $
 %                   Comment: simplified the script to detect only ILM and RPE
-%
+%s
 
 close all;clear all;clc;
 warning off;

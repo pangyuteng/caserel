@@ -1,6 +1,4 @@
-caserel
-
-Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images
+CASEREL
 
 =======
 
@@ -10,7 +8,7 @@ This project is at its infancy stage. Currently, the software supports segmentat
 
 For a demonstration, run script 'getRetinalLayersExample.m'.
 
-` How to pronounce CASeReL? say is like casserole
+` How to pronounce CASeReL? say it like casserole.  The name is derived from "Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images".
 
 =======
 
