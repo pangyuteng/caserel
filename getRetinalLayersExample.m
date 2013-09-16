@@ -127,4 +127,8 @@ end
 
 %%  Section 4, calculate and print out retinal thickness (in pixels)
 
+<<<<<<< HEAD
 calulateRetinalThickness
+=======
+%calulateRetinalThickness
+>>>>>>> 890014fd45d16b9fc36fc8e053b844aa94ffc780
