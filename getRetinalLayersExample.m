@@ -1,9 +1,6 @@
 %   
 %
-%   This example script demonstrate the usage of 
-% 
-%    GASeReL - Graph-based Automated Segmentation of Retinal Layers in
-%    optical coherence tomography images
+%   This example script demonstrate the usage of CASEREL
 %
 %   Section 1, loads the path of the image.
 %   Section 2, automatically segments the retinal layers based on graph theory.
