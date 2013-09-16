@@ -10,4 +10,12 @@ This project is at its infancy stage. Currently, the software supports segmentat
 
 For a demonstration, run script 'getRetinalLayersExample.m'.
 
-` How to pronounce CASeReL? say is like c
+` How to pronounce CASeReL? say is like casserole
+
+=======
+
+TODOS:
++ Retinal Thickness Output
++ Macula detection
++ Vessel detection
++ Minimize the use of constants
