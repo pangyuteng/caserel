@@ -12,14 +12,14 @@ Above video illustrates the segmentation results by Caserel.
 # Disclaimer
 Please note that this project is "work-in-progress", meaning many features still needs to be implemented, e.g. detection of macula and vessels.  In addition, the accuracy of the automated segmentation are not yet validated, so if you are to use the resulting segmentation for quantification of retinal layer thickness, I recommend carefully reviewing the segmentation results using either the provided GUI or other image segmentation tools.
 
-Drop your comments/ideas [here](https://github.com/pangyuteng/caserel/issues), or start implementing your own feature by forking this project.
+Drop your comments/ideas [here](https://github.com/pangyuteng/caserel/issues).
 
 # How to pronounce Caserel? 
 Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images".
 
 # TODOS:
 - [x] Retinal Thickness Output
-- [ ] Evaluation of segmentation accuracry using data from Duke.
 - [ ] Macular detection
 - [ ] Vessel detection
+- [ ] Evaluation of segmentation accuracy using publicaly available datasets.
 - [ ] Minimize the use of constants
