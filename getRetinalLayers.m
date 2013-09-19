@@ -53,10 +53,12 @@ if nargin < 2
     params.ilm_1 = 4;
     params.isos_0 = 4;
     params.isos_1 = 4;
-    params.inlopl_0 = 0.1;%  0.4;%
-    params.inlopl_1 = 0.1;%  0.5;%  
-    params.nflgcl_0 = 0.05;%0.01;
-    params.nflgcl_1 = 0.3;%0.1;
+    params.rpe_0 = 0.05;
+    params.rpe_1 = 0.05;
+    params.inlopl_0 = 0.1; %   0.4;%
+    params.inlopl_1 = 0.3; %   0.5;%  
+    params.nflgcl_0 = 0.05;%  0.01;
+    params.nflgcl_1 = 0.3; %   0.1;
     params.iplinl_0 = 0.6;
     params.iplinl_1 = 0.2;
     params.oplonl_0 = 0.05;%4;
@@ -121,7 +123,7 @@ if isPlot,
     imagesc(img);
     axis image; colormap('gray'); hold on; drawnow;
 
-    layersToPlot = {'ilm' 'isos' 'rpe' 'inlopl' 'nflgcl' 'iplinl' 'oplonl' 'rpeSmooth'}; %
+    layersToPlot = {'ilm' 'isos' 'rpe' 'inlopl' 'nflgcl' 'iplinl' 'oplonl'};% 'rpeSmooth'}; %
     hOffset =       [40    0      40    0        0        40       -40      -40]; % for displaying text
     for k = 1:numel(layersToPlot)
 
