@@ -13,7 +13,6 @@ Please note that this project is "work-in-progress", meaning many features still
 
 # How to pronounce Caserel? 
 Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images".
-=======
 
 # TODOS:
 - [x] Retinal Thickness Output
