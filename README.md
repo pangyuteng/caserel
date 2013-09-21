@@ -23,3 +23,6 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 - [ ] Vessel detection
 - [ ] Evaluation of segmentation accuracy using publicaly available datasets.
 - [ ] Minimize the use of constants
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pangyuteng/caserel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
