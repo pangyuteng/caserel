@@ -18,14 +18,15 @@ Drop your comments/ideas [here](https://github.com/pangyuteng/caserel/issues).
 Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images".
 
 # Progress
+
 - [x] Automated segmentation of retinal boundaries
-                    * added 'getRetinalLayers.m', segmentation method based on graph theory ([S.J. Chiu, et al](http://goo.gl/Z8zsY)).
+                   - added 'getRetinalLayers.m', segmentation method based on graph theory ([S.J. Chiu, et al](http://goo.gl/Z8zsY)).
 - [x] Retinal thickness output
-                    * added 'calculateRetinalThickness.m'.
+                   - added 'calculateRetinalThickness.m'.
 - [x] Evaluation of ILM and RPE
-                     [latest evaluation](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
+                   - [latest evaluation](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
 - [ ] Macular detection
--                   * current stage of developtment, considering to use support vector machine ([K.A. Vermeer, et al](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114239/)).
+                   - current stage of developtment, considering to use support vector machine ([K.A. Vermeer, et al](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114239/)).
 - [ ] Vessel detection
 - [ ] Minimize the use of constants
 - [ ] Final evaluation of segmentation using publicaly available datasets
