@@ -10,7 +10,7 @@ Currently, the software supports segmentation of 6 retinal layers by automatical
 Above video illustrates the segmentation results by Caserel.
 
 # Disclaimer
-Please note that this project is "work-in-progress", meaning many features still needs to be implemented, e.g. detection of macula and vessels.  In addition, the accuracy of the automated segmentation are not yet validated, so if you are to use the resulting segmentation for quantification of retinal layer thickness, please carefully review the segmentation results using either the provided GUI or other image segmentation tools.
+Please note that this project is "work-in-progress", meaning many features still needs to be implemented, e.g. detection of macula and vessels.  In addition, the accuracy of the automated segmentation is [not completely evaluated](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation), so if you are to use the resulting segmentation for quantification of retinal layer thickness, please carefully review the segmentation results using either the provided GUI or other image segmentation tools.
 
 Drop your comments/ideas [here](https://github.com/pangyuteng/caserel/issues).
 
@@ -24,14 +24,8 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 - [ ] Vessel detection
 - [ ] Minimize the use of constants
 - [ ] Evaluation of segmentation accuracy using publicaly available datasets.
+        The [latest evaluation results is shown here](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
 
-        09/24/2013, Compared ILM and RPE segmentations with the automated segmentation 
-        by [S.J. Chiu and et al](http://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm).
-        In 214 of 220 b-scans from 20 patients, segmentation of ILM and RPE by Caserel 
-        was in good agreement with that obtained by S.J. Chiu's method. Mean absolute 
-        difference between the segmented ILM and RPE by the two methods were 0.7+/-0.7 
-        and 2.2+/-1.7 pixels, respectively (N = 214 images). Segmentation was not
-        successful in 6 of 220 b-scans.
                     
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pangyuteng/caserel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
