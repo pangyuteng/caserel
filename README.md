@@ -24,7 +24,7 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 - [ ] Vessel detection
 - [ ] Minimize the use of constants
 - [ ] Evaluation of segmentation accuracy using publicaly available datasets.
-        The [latest evaluation results is shown here](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
+        [The latest evaluation results is shown here.](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
 
                     
 
