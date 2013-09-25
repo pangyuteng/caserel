@@ -17,14 +17,18 @@ Drop your comments/ideas [here](https://github.com/pangyuteng/caserel/issues).
 # How to pronounce Caserel? 
 Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of REtinal Layers in optical coherence tomography images".
 
-# TODOS:
+# Progress
+- [x] Automated segmentation of retinal boundaries 
+        - added 'getRetinalLayers.m', segmentation method based on graph theory ([S.J. Chiu, et al](http://goo.gl/Z8zsY)).
 - [x] Retinal Thickness Output
-        added 'calculateRetinalThickness.m'
+        - added 'calculateRetinalThickness.m'
+- [x] Evaluation of ILM and RPE
+        - [latest evaluation(https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).]
 - [ ] Macular detection
+        + current stage of developtment, considering to use support vector machine ([K.A. Vermeer, et al](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114239/)).
 - [ ] Vessel detection
 - [ ] Minimize the use of constants
-- [ ] Evaluation of segmentation accuracy using publicaly available datasets.
-        [The latest evaluation results are shown here.](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
+- [ ] Final evaluation of segmentation using publicaly available datasets.
 
                     
 
