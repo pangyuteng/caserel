@@ -20,11 +20,11 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 # TODOS:
 - [x] Retinal Thickness Output
         added 'calculateRetinalThickness.m'
-- [] Macular detection
+- [ ] Macular detection
 - [ ] Vessel detection
 - [ ] Minimize the use of constants
 - [ ] Evaluation of segmentation accuracy using publicaly available datasets.
-        [The latest evaluation results is shown here.](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
+        [The latest evaluation results are shown here.](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
 
                     
 
