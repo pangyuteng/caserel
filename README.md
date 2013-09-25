@@ -23,6 +23,7 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 - [] Macular detection
 - [ ] Vessel detection
 - [ ] Evaluation of segmentation accuracy using publicaly available datasets.
+
         09/24/2013, Compared ILM and RPE segmentations with the automated segmentation by [S.J. Chiu](http://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm).
                     In 214 of 220 b-scans from 20 patients, segmentation of ILM and RPE by Caserel was in good agreement with that obtained by S.J. Chiu's method.
                     Mean absolute difference between the segmented ILM and RPE by the two methods were 0.7+/-0.7 and 2.2+/-1.7 pixels, respectively (N = 214 images).
