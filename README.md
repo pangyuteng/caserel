@@ -10,7 +10,7 @@ Currently, the software supports segmentation of 6 retinal layers by automatical
 Above video illustrates the segmentation results by Caserel.
 
 # Disclaimer
-Please note that this project is "work-in-progress", meaning many features still needs to be implemented, e.g. detection of macula and vessels.  In addition, the accuracy of the automated segmentation are not yet validated, so if you are to use the resulting segmentation for quantification of retinal layer thickness, I recommend carefully reviewing the segmentation results using either the provided GUI or other image segmentation tools.
+Please note that this project is "work-in-progress", meaning many features still needs to be implemented, e.g. detection of macula and vessels.  In addition, the accuracy of the automated segmentation are not yet validated, so if you are to use the resulting segmentation for quantification of retinal layer thickness, please carefully review the segmentation results using either the provided GUI or other image segmentation tools.
 
 Drop your comments/ideas [here](https://github.com/pangyuteng/caserel/issues).
 

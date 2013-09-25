@@ -211,9 +211,12 @@ if isSmoothRpe,
             pathXpoly = pathX;
             pathYpoly = pathY;
 
-            [pathXpoly(rpePathInd), ~] = csaps(pathY(rpePathInd),pathX(rpePathInd),...
-               lambda,pathY(rpePathInd));               
+           [pathXpoly(rpePathInd), ~] = csaps(pathY(rpePathInd),pathX(rpePathInd),...
+              lambda,pathY(rpePathInd));               
+%             [pathXpoly(rpePathInd), ~] = csaps_pt(pathY(rpePathInd),pathX(rpePathInd),...
+%                lambda,pathY(rpePathInd));               
 
+           
             %add layer info to struct
             %layerToPlotInd = numel(rPaths)+1;
             %rPaths(layerToPlotInd).name = 'rpeSmooth';
