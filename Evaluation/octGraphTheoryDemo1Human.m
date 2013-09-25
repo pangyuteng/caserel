@@ -35,7 +35,7 @@ load([folderPath imageDir(1).name]);
 patientNums = numel(imageDir);
 
 
-for i = 15:15%patientNums
+for i = 1:patientNums
     
     clear imageLayer
     imagePath = [folderPath imageDir(i).name];
@@ -91,44 +91,3 @@ imgNum
     
 end% of i
 
-
-toc;
-return;
-
-
-%%
-close all;clear all;clc;
-% 
-% load([params.folderPath '_octSegmentation.mat']);
-% 
-% 
-% figure;
-% layersToPlot = {'rpe' 'isos' 'inlopl' 'nflgcl' 'ilm'};
-% for i = 1:numel(imageLayer)
-%     
-%     if ~isempty(imageLayer(i).params)
-%         retinalLayers = imageLayer(i).retinalLayers;
-%         params =  imageLayer(i).params;
-%         imgPath = params.imgPath;
-%         images=imread(imgPath);
-%         img = double(images(params.yrange,params.xrange,1));
-% 
-%         imagesc(img);axis image;colormap('gray');
-%         title(sprintf('image %d of %d',i,numel(imageLayer)));
-%         hold on;
-%         for k = 1:numel(layersToPlot)
-%             matchedLayers = strcmpi(layersToPlot{k},{retinalLayers(:).name});
-%             layerToPlotInd = find(matchedLayers == 1);
-%             if ~isempty(retinalLayers(layerToPlotInd))
-%                 colora = params.colorarr(k,:);
-%                 plot(retinalLayers(layerToPlotInd).pathY-1,retinalLayers(layerToPlotInd).pathX,'-','color',colora,'linewidth',2);
-%                 plotInd = round(numel(retinalLayers(layerToPlotInd).pathX)/2);
-%                 text(retinalLayers(layerToPlotInd).pathY(plotInd),retinalLayers(layerToPlotInd).pathX(plotInd)+params.txtOffset,retinalLayers(layerToPlotInd).name,'color',colora,'linewidth',2);
-%             end
-%         end        
-% 
-%         drawnow;
-%         [x y] = ginput(1);
-%         hold off;
-%     end
-% end
