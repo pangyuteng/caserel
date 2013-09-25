@@ -22,12 +22,17 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
         added 'calculateRetinalThickness.m'
 - [] Macular detection
 - [ ] Vessel detection
+- [ ] Minimize the use of constants
 - [ ] Evaluation of segmentation accuracy using publicaly available datasets.
 
-        09/24/2013, Compared ILM and RPE segmentations with the automated segmentation by [S.J. Chiu](http://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm).
-                    In 214 of 220 b-scans from 20 patients, segmentation of ILM and RPE by Caserel was in good agreement with that obtained by S.J. Chiu's method.
-                    Mean absolute difference between the segmented ILM and RPE by the two methods were 0.7+/-0.7 and 2.2+/-1.7 pixels, respectively (N = 214 images).
-- [ ] Minimize the use of constants
+        09/24/2013, Compared ILM and RPE segmentations with the automated segmentation 
+        by [S.J. Chiu and et al](http://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm).
+        In 214 of 220 b-scans from 20 patients, segmentation of ILM and RPE by Caserel 
+        was in good agreement with that obtained by S.J. Chiu's method. Mean absolute 
+        difference between the segmented ILM and RPE by the two methods were 0.7+/-0.7 
+        and 2.2+/-1.7 pixels, respectively (N = 214 images). Segmentation was not
+        successful in 6 of 220 b-scans.
+                    
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pangyuteng/caserel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1375c1d50439709f78fe58b7ca085e7e "githalytics.com")](http://githalytics.com/pangyuteng/caserel)
