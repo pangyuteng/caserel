@@ -34,6 +34,7 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 
 
 # License
+This project is under [GPL v2, "a copyleft license that requires anyone who distributes code or a derivative work to make the source available under the same terms."](http://choosealicense.com/licenses/gpl-v2/)  For full details, see the [LICENSE](https://github.com/pangyuteng/caserel/blob/master/LICENSE) file provided in the project folder.
 [GPL v2](http://choosealicense.com/licenses/gpl-v2/)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pangyuteng/caserel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
