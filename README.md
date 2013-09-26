@@ -1,10 +1,6 @@
 # Welcome!
 
-Project Caserel is an open-source software suite for computer-aided segmentation of retinal layers in optical coherence tomography images written in Matlab.
-
-# For a brief introduction
-
-Check out the [main page here](http://pangyuteng.github.io/caserel/).
+Project Caserel is an open-source software suite for computer-aided segmentation of retinal layers in optical coherence tomography images written in Matlab.  Here is the link to the main project page is [pangyuteng.github.io/caserel/](http://pangyuteng.github.io/caserel/).
 
 # Progress
 
