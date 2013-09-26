@@ -147,4 +147,4 @@ end
 
 %%  Section 4, calculate and print out retinal thickness (in pixels)
 
-calulateRetinalThickness
+calculateRetinalThickness

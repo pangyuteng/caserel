@@ -21,11 +21,12 @@
 %and Geographic Atrophy in SDOCT Images, IOVS 53(1)53-61,
 
 % ENJOY!
-addpath('D:\playground\Google Drive\APL\m_files\googleCode\caserel\');
+
 
 close all;clear all;
 tic;
 %folderPath = 'P:\oct_images\';
+%addpath('D:\playground\Google Drive\APL\m_files\googleCode\caserel\');
 folderPath = 'D:\playground\course_ImagingInformatics\Chiu_IOVS_2011\Automatic versus Manual Study\';
 
 imageDir=dir(folderPath);
@@ -86,7 +87,7 @@ imgNum
         hold off;
         drawnow;
     end %of imgNum
-    
+   
     save([imageLayer(1).imagePath '_octSegmentation.mat'], 'imageLayer');    
     
 end% of i
