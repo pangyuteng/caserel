@@ -2,20 +2,6 @@
 
 Project Caserel is an open-source software suite for computer-aided segmentation of retinal layers in optical coherence tomography images written in Matlab.  For more information, check out the main project page: [pangyuteng.github.io/caserel](http://pangyuteng.github.io/caserel/).
 
-# Progress
-
-- [x] Automated segmentation of retinal boundaries
-                   - added 'getRetinalLayers.m', segmentation method based on graph theory ([S.J. Chiu, et al](http://goo.gl/Z8zsY)).
-- [x] Retinal thickness output
-                   - added 'calculateRetinalThickness.m'.
-- [x] Evaluation of ILM and RPE
-                   - [latest evaluation](https://github.com/pangyuteng/caserel/wiki/Evaluation-of-segmentation).
-- [ ] Macular detection
-                   - current stage of developtment, considering to use support vector machine ([K.A. Vermeer, et al](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114239/)).
-- [ ] Vessel detection
-- [ ] Minimize the use of constants
-- [ ] Final evaluation of segmentation using publicaly available datasets
-
 
 
 # License
