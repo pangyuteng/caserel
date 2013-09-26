@@ -17,7 +17,6 @@
 %     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 %
 
-
 %   
 %
 %   This example script demonstrates the usage of CASEREL
@@ -128,7 +127,6 @@ display(sprintf('segmentation saved to %s',filename));
 %              retainl layers.
 
 close all;
-
 
 filename = [imagePath{1} '_octSegmentation.mat'];
 
