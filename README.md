@@ -31,7 +31,9 @@ Say it like casserole.  The name is derived from "Computer-Aided SEgmentation of
 - [ ] Minimize the use of constants
 - [ ] Final evaluation of segmentation using publicaly available datasets
 
-                    
+
+
+License [GPL v2](http://choosealicense.com/licenses/gpl-v2/)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pangyuteng/caserel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1375c1d50439709f78fe58b7ca085e7e "githalytics.com")](http://githalytics.com/pangyuteng/caserel)
