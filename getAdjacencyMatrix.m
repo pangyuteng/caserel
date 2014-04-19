@@ -55,7 +55,7 @@ img(:,2:1+szImg(2)) = inputImg;
 szImg = size(img);
 
 % get vertical gradient image
-[~,gradImg] = gradient(img,2,2);
+[~,gradImg] = gradient(img,1,1);
 gradImg = -1*gradImg;
 
 % normalize gradient

@@ -189,8 +189,8 @@ if ~sum(newRoi(:))
     %block the obtained layer in the roi image.
     for k = 2:handles.szImg(2)-1
         indPathX = find(pathY==k);
-        startInd = pathX(indPathX) - params.smallIncre*2;
-        endInd = pathX(indPathX) + params.smallIncre*2;
+        startInd = pathX(indPathX) - params.smallIncre;%#*2;
+        endInd = pathX(indPathX) + params.smallIncre;%#*2;
         if startInd < 1
             startInd = 1;
         end

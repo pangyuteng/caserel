@@ -62,7 +62,10 @@ for i = 1:numel(imageLayer);
                 %resample, use extrap to extrap out of range subscripts.            
                 imageLayer(i).retinalLayers(j).pathYAnalysis = 1:szImg(2)/params.isResize(2);        
                 imageLayer(i).retinalLayers(j).pathXAnalysis = nan([1 szImg(2)/params.isResize(2)]);
-                imageLayer(i).retinalLayers(j).pathXAnalysis(params.xrange) = round(interp1(pathYNew,pathXNew,1:szImg(2)/params.isResize(2),'linear','extrap'));
+
+                %imageLayer(i).retinalLayers(j).pathXAnalysis(params.xrange) = round(interp1(pathYNew,pathXNew,1:szImg(2)/params.isResize(2),'linear','extrap'));
+                imageLayer(i).retinalLayers(j).pathXAnalysis(:) = round(interp1(pathYNew,pathXNew,1:szImg(2)/params.isResize(2),'linear','extrap'));
+                
 
         end % of resize
     end % of j

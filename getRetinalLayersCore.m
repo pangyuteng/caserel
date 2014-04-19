@@ -190,32 +190,34 @@ switch layerName
     %bright to dark
     case {'rpe' 'nflgcl' 'oplonl' 'iplinl' }
         adjMatrixW = sparse(adjMA(keepInd),adjMB(keepInd),adjMW(keepInd),numel(img(:)),numel(img(:)));    
-        [ dist( 1 ), path{1} ] = graphshortestpath( adjMatrixW, 1, numel(img(:)) );
+        [ ~, path ] = graphshortestpath( adjMatrixW, 1, numel(img(:)) );
+        % dist = nan(size(path));
+        % for i = 1:numel(path)-1,dist(i)=adjMatrixW(path(i),path(i+1));end
     %dark to bright
     case {'inlopl' 'ilm' 'isos' }
         adjMatrixMW = sparse(adjMA(keepInd),adjMB(keepInd),adjMmW(keepInd),numel(img(:)),numel(img(:)));    
-        [ dist( 1 ), path{1} ] = graphshortestpath( adjMatrixMW, 1, numel(img(:)) );        
+        [ ~, path ] = graphshortestpath( adjMatrixMW, 1, numel(img(:)) );        
+        % dist = nan(size(path));
+        % for i = 1:numel(path)-1,dist(i)=adjMatrixMW(path(i),path(i+1));end
 end
 
 %convert path indices to subscript
-[pathX, pathY] = ind2sub(szImg,path{1});
+[pathX, pathY] = ind2sub(szImg,path);
 
 %if name layer existed, overwrite it, else add layer info to struct
 matchedLayers = strcmpi(layerName,{rPaths(:).name});
 layerToPlotInd = find(matchedLayers == 1);
 if isempty(layerToPlotInd)    
     layerToPlotInd = numel(rPaths)+1;
-    rPaths(layerToPlotInd).path = path{1};
-    rPaths(layerToPlotInd).pathX = pathX;
-    rPaths(layerToPlotInd).pathY = pathY;
-    rPaths(layerToPlotInd).pathXmean = mean(rPaths(layerToPlotInd).pathX(gradient(rPaths(layerToPlotInd).pathY)~=0));
     rPaths(layerToPlotInd).name = layerName;
-else
-    rPaths(layerToPlotInd).path = path{1};
-    rPaths(layerToPlotInd).pathX = pathX;
-    rPaths(layerToPlotInd).pathY = pathY;
-    rPaths(layerToPlotInd).pathXmean = mean(rPaths(layerToPlotInd).pathX(gradient(rPaths(layerToPlotInd).pathY)~=0));
 end
+
+% save data.
+rPaths(layerToPlotInd).path = path;
+% rPaths(layerToPlotInd).dist = dist;
+rPaths(layerToPlotInd).pathX = pathX;
+rPaths(layerToPlotInd).pathY = pathY;
+rPaths(layerToPlotInd).pathXmean = mean(rPaths(layerToPlotInd).pathX(gradient(rPaths(layerToPlotInd).pathY)~=0));
 
 %create an additional smoother layer for rpe
 isSmoothRpe = 1;
