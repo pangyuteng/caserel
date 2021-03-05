@@ -1,6 +1,6 @@
 ##### 
 + this repo is not actively maintained.
-+ please see `https://github.com/pangyuteng/caserel/blob/master/getRetinalLayersExample.m` for sample code usage.
++ please see `getRetinalLayersExample.m` for sample code usage.
 
 # Welcome!
 
